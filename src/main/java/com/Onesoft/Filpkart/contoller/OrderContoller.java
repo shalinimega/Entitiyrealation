@@ -15,7 +15,7 @@ import com.Onesoft.Filpkart.serives.Orderservice;
 public class OrderContoller {
 	@Autowired
 	Orderservice os;
-	@PostMapping("senddata")
+	@PostMapping("senddata1")
 	public String senddata(@RequestBody Order aa)
 	{
 		return os.senddata(aa);
